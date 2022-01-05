@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.top_section {
+  margin: 0px auto;
+  display: flex;
+}
+.content_width_half {
+  width: 40%;
+  padding-left: 10%;
+  border: 1px solid;
+}
+.title_content {
+  margin-top: 100px;
+  border-left: 5px solid black;
+  border-radius: 5px;
+  padding-left: 5px;
+  height: 121px;
+}
+.title_content h1 {
+  font-size: 55px;
+  margin-bottom: -25px;
+  margin-top: 31px;
+}
+.content_width_half img {
+  width: 70%;
+}
+.color_title {
+  color: lightsalmon;
+}
+.content_width_half p {
+  width: 75%;
+  line-height: 24px;
+  margin-top: 24px;
+  font-size: 20px;
+  font-family: inherit;
+}
