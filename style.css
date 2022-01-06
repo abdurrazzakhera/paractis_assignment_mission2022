@@ -92,3 +92,14 @@ body {
 .sixty_ratio p {
   margin-bottom: 35px;
 }
+.footer_section {
+  background-color: black;
+  text-align: center;
+  padding: 21px;
+}
+.footer_section h1 {
+  color: white;
+}
+.footer_section p {
+  color: #afb59b;
+}
