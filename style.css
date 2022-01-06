@@ -13,7 +13,7 @@ body {
 }
 .title_content {
   margin-top: 100px;
-  border-left: 5px solid black; /* border-radius: 5px; */
+  border-left: 5px solid black;
   padding-left: 9px;
   height: 130px;
 }
@@ -38,33 +38,57 @@ body {
 }
 .btn {
   text-decoration: none;
-  color: black;
   background-image: linear-gradient(45deg, lightsalmon, tomato);
   padding: 10px 40px;
   border-radius: 5px;
+  color: white;
 }
 .mission_cart {
-  width: 90%;
-  margin: 0 auto;
+  width: 80%;
+  margin: 0px auto;
 }
 .mission_cart h1 {
   text-align: center;
   font-size: 55px;
 }
-
 .cart_content {
   width: 100%;
   display: flex;
-  gap: 10%;
   justify-content: space-around;
 }
 .cart_item {
-  width: 25%;
-  padding: 25px;
-  background-color: #5f97a063;
+  width: 27%;
+  padding: 21px;
+  background-color: rgba(95, 151, 160, 0.39);
   border-radius: 5px;
 }
 .photo img {
   width: 150px;
   height: auto;
+}
+.project_info {
+  width: 79%;
+  margin: 80px auto 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.forty_ratio {
+  width: 38%;
+  border: 1px solid;
+}
+.forty_ratio img {
+  width: 100%; /* padding: 23px; */
+}
+.sixty_ratio {
+  width: 56%;
+  border: 1px solid;
+  padding-left: 0%;
+  padding-top: 4%;
+}
+.sixty_ratio h1 {
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+.sixty_ratio p {
+  margin-bottom: 35px;
 }
